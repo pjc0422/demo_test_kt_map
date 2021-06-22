@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="clear_all">Clear All</string>
+    <string name="show_all">Show All</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <string name="app_name">map</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="OllehMapOptions">
+        <attr format="float" name="centerX"/>
+        <attr format="float" name="centerY"/>
+        <attr format="float" name="zoom"/>
+        <attr format="float" name="rotation"/>
+        <attr format="float" name="tilt"/>
+        <attr format="float" name="maxExtentMinX"/>
+        <attr format="float" name="maxExtentMinY"/>
+        <attr format="float" name="maxExtentMaxX"/>
+        <attr format="float" name="maxExtentMaxY"/>
+        <attr format="float" name="minZoom"/>
+        <attr format="float" name="maxZoom"/>
+        <attr format="string" name="maxTilt"/>
+        <attr format="boolean" name="panGesturesEnabled"/>
+        <attr format="boolean" name="zoomGesturesEnabled"/>
+        <attr format="boolean" name="rotateGesturesEnabled"/>
+        <attr format="boolean" name="tiltGesturesEnabled"/>
+        <attr format="enum" name="tileMode">
+            <enum name="vector" value="0"/>
+            <enum name="image" value="1"/>
+        </attr>
+        <attr format="integer" name="mapViewCategory">
+            <enum name="glSurfaceView" value="0"/>
+            <enum name="glTextureView" value="1"/>
+        </attr>
+        <attr format="integer" name="renderNanoTick"/>
+        <attr format="float" name="renderFps"/>
+
+        <attr format="enum" name="imageRenderingMode">
+            <enum name="defaultMode" value="0"/>
+            <enum name="linearMode" value="1"/>
+            <enum name="nearestMode" value="2"/>
+        </attr>
+        <attr format="reference" name="systemImage"/>
+        <attr format="reference" name="systemImageInfo"/>
+        <attr format="reference" name="mapStyle"/>
+    </declare-styleable>
+</resources>

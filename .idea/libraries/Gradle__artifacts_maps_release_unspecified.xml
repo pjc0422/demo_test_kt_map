@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:maps-release:unspecified">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/maps-release/build/.transforms/1f2aecb81ec3e073836a67ac67ea9eec/jetified-maps-release/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/maps-release/build/.transforms/1f2aecb81ec3e073836a67ac67ea9eec/jetified-maps-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/maps-release/build/.transforms/1f2aecb81ec3e073836a67ac67ea9eec/jetified-maps-release/res" />
+      <root url="file://$PROJECT_DIR$/maps-release/build/.transforms/1f2aecb81ec3e073836a67ac67ea9eec/jetified-maps-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

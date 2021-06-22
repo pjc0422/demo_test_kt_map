@@ -1,0 +1,4 @@
+include ':maps-release'
+include ':geom'
+include ':app'
+rootProject.name = "My Application"

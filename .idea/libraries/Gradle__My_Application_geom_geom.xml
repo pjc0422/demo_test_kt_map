@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: My_Application.geom.geom">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/geom/geom.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
